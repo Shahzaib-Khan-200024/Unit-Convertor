@@ -91,3 +91,5 @@ elif conversion_type in ["Area", "Time", "Speed", "Volume", "Energy", "Pressure"
         st.success(f"{value} {from_unit} = {result.magnitude:.4f} {to_unit}")
 
 st.caption("Built with ❤️ using Streamlit")
+
+# streamlit run app.py
