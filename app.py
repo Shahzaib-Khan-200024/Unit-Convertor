@@ -1,6 +1,7 @@
 import streamlit as st
 from forex_python.converter import CurrencyRates
 from pint import UnitRegistry
+from pyforex import ForexClient
 
 # Initialize unit registry
 ureg = UnitRegistry()
